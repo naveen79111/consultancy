@@ -1,0 +1,101 @@
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+a:link,a:visited{
+	display: block;
+	font-weight: bold;
+	color: green;
+	background-color: yellow;
+	width: 120px;
+	text-align: center;
+	padding: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover,a:active{
+	background-color: orange;
+}
+
+li{
+	float: right;
+}
+
+h1{
+	font-weight: bold;
+	color: solid black;
+	font-size: xx-large;
+}
+section{
+   
+    width: 100%;
+    height: 30px;
+
+}
+*{
+	background-color: skyblue;
+}
+
+label{
+
+}
+
+button {
+	background-color: black;
+	color: white;
+}
+div{
+	float: right;
+}
+
+div>p{
+
+	 padding: 20px;
+	 font-weight: bold;
+	 background-color: #335d02;
+	 width: 300px;
+	 height: 70px;
+	 color: white;
+
+}
+
+.container{
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;
+}
+
+.container .box{
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background-color: yellow;
+	float: left;
+	margin: 15px;
+}
+
+.container .box button{
+	width: 370px;
+	background-color: brown;
+	height: 30px;
+	cursor: pointer;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	background-color: green;
+}
+
+footer>p{
+	background-color: green;
+    float: left;
+    width: 100%;
+    
+
+}
